@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E2355A631E2DEEF0004FEAA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2355A621E2DEEF0004FEAA3 /* AppDelegate.swift */; };
-		E2355A651E2DEEF0004FEAA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2355A641E2DEEF0004FEAA3 /* ViewController.swift */; };
 		E2355A681E2DEEF0004FEAA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2355A661E2DEEF0004FEAA3 /* Main.storyboard */; };
 		E2355A6A1E2DEEF0004FEAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2355A691E2DEEF0004FEAA3 /* Assets.xcassets */; };
 		E2355A6D1E2DEEF0004FEAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2355A6B1E2DEEF0004FEAA3 /* LaunchScreen.storyboard */; };
+		E2355A751E2DEF58004FEAA3 /* ViewScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2355A741E2DEF58004FEAA3 /* ViewScroll.swift */; };
+		E2355A781E2DEFD9004FEAA3 /* shop1-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2355A771E2DEFD9004FEAA3 /* shop1-0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E2355A5F1E2DEEF0004FEAA3 /* FashionShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FashionShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2355A621E2DEEF0004FEAA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2355A641E2DEEF0004FEAA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2355A671E2DEEF0004FEAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2355A691E2DEEF0004FEAA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2355A6C1E2DEEF0004FEAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2355A6E1E2DEEF0004FEAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2355A741E2DEF58004FEAA3 /* ViewScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewScroll.swift; sourceTree = "<group>"; };
+		E2355A771E2DEFD9004FEAA3 /* shop1-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shop1-0.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,22 @@
 			isa = PBXGroup;
 			children = (
 				E2355A621E2DEEF0004FEAA3 /* AppDelegate.swift */,
-				E2355A641E2DEEF0004FEAA3 /* ViewController.swift */,
+				E2355A741E2DEF58004FEAA3 /* ViewScroll.swift */,
 				E2355A661E2DEEF0004FEAA3 /* Main.storyboard */,
 				E2355A691E2DEEF0004FEAA3 /* Assets.xcassets */,
 				E2355A6B1E2DEEF0004FEAA3 /* LaunchScreen.storyboard */,
 				E2355A6E1E2DEEF0004FEAA3 /* Info.plist */,
+				E2355A761E2DEFCA004FEAA3 /* Suppoting File */,
 			);
 			path = FashionShop;
+			sourceTree = "<group>";
+		};
+		E2355A761E2DEFCA004FEAA3 /* Suppoting File */ = {
+			isa = PBXGroup;
+			children = (
+				E2355A771E2DEFD9004FEAA3 /* shop1-0.jpg */,
+			);
+			name = "Suppoting File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				E2355A6D1E2DEEF0004FEAA3 /* LaunchScreen.storyboard in Resources */,
 				E2355A6A1E2DEEF0004FEAA3 /* Assets.xcassets in Resources */,
+				E2355A781E2DEFD9004FEAA3 /* shop1-0.jpg in Resources */,
 				E2355A681E2DEEF0004FEAA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2355A651E2DEEF0004FEAA3 /* ViewController.swift in Sources */,
+				E2355A751E2DEF58004FEAA3 /* ViewScroll.swift in Sources */,
 				E2355A631E2DEEF0004FEAA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
